@@ -1,0 +1,192 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title></title>
+    
+  </head>
+  <body  style="background:rgb(243, 215, 215);>
+
+    <!-- Navigation Bar -->
+    <header>
+      <nav>
+          <!-- Search Bar Design -->
+          <div>
+            <label for="search"><b>Search:</b></label>
+            <input type="text" id="search" placeholder="Search..." />
+          </div>
+
+      <hr>
+
+        <a href="#home">Home</a> | <a href="#about">About Me</a> |
+        <a href="#contact">Contact</a> | <a href="#gallery">Gallery</a>|
+      </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <main>
+            <h1>Welcome to My Personal Website</h1>
+            <p>Welcome to my personal website. Here, I share a bit about myself, 
+                my interests, and the skills I'm developing as I learn HTML.
+                 Feel free to explore and see what I've been working on.</p>
+            <h2>Quick Facts About Me:</h2>
+            <ul>
+                <li>💻 I enjoy building simple web pages and exploring code.</li>
+                <li>📚 I love learning new things, especially in tech.</li>
+                <li>🎧 Music helps me focus while coding.</li>
+                <li>🚀 I'm excited to grow as a web developer.</li>
+            </ul>
+        
+            <p>Quote of the Day: <q>Dream big.Start small.Act now!</q></p>
+
+            <img src="https://imgs.search.brave.com/ZwO1iXnuJ4ZTgfr7_GX1B_fiXuQoBPvyBLV6FcQPt2g/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzM5Lzcz/L2NmLzM5NzNjZjdh/MDNjYTc1YjE5MDM3/OGRmMWE1ZWNhY2U5/LmpwZw" width="200" alt="mood image">
+        </main>
+    </section>
+
+    <section id="favorites">
+      <h2>My Favorite Things</h2>
+      <table border="1">
+          <tr>
+              <th>Category</th>
+              <th>Favorite</th>
+          </tr>
+          <tr>
+              <td><b>🎵Song</b></td>
+              <td>Emre Fel - Senden Güzeli Mi Var</td>
+          </tr>
+          <tr>
+              <td><b>📓Book</b></td>
+              <td>Harry Potter </td>
+          </tr>
+          <tr>
+              <td><b>🍕Food</b></td>
+              <td>Pizza</td>
+          </tr>
+          <tr>
+              <td><b>📽️Movie</b></td>
+              <td>The kite runner</td>
+          </tr>
+          <tr>
+              <td rowspan="2"><b>🔷Color</b></td>
+              <td>Red</td>
+          </tr>
+          <tr>
+            <td>Blue</td>
+          </tr>
+      </table>
+  </section>
+  
+
+    <!-- About Me Section -->
+
+    <section id="about">
+        <h1>About me</h1>
+        <p>Hi, I'm Hadia, and I'm passionate about learning new skills that can help me create and connect with others. I decided to learn web design because I've always been fascinated by the way websites work and how they shape our digital experiences. Web design allows me to combine creativity with technology, and I love the idea of designing spaces online where people can interact, learn, and engage. It’s a perfect mix of art and functionality, and I'm excited to continue improving my skills to bring ideas to life on the web.</p>
+        <h2>My future goals</h2>
+        <p>I'm interested in web design because it lets me combine creativity and technology. In the future, I want to build websites that are both useful and easy to use. My goal is to keep learning and improving my skills, working on projects that help people and businesses succeed online.</p>
+        <h3>My Models and Insprirations:</h3>
+        <ol>
+            <li><b>My Brother:</b>He studied computer science and his dedication to learning and problem-solving inspires me to pursue my own goals in technology.</li>
+            <li><b>My Teacher:</b> She is a great mentor.</li>
+            <li><b>Marques Brownlee:</b> His tech reviews and focus on quality inspire me to pursue my passion for technology.</li>
+        </ol>
+        <h3>My Favorite Things:</h3>
+        <ul>
+            <li><b>Food:</b>Pizza and Tacos</li>
+            <li><b>Music:</b> Classica</li>
+            <li><b>Hobbies:</b> Traveling, Photography and coding</li>
+            <li><b>Movies:</b>Adventure and Action</li>
+        </ul>
+        <h3>Personal Fun Fact:</h3>
+        <p>This page was written by Hadia. I love learning new things and exploring the world through technology and design. In my free time, I enjoy traveling, discovering new cultures.</p>
+    </section>
+
+    <!-- Contact Section -->
+
+    <section id="contact">
+        <h1>Contact Me</h1>
+        <p>I'd love to hear from you! Feel free to reach out using the form below.</p>
+        <form>
+            <lable for="name">Name:</lable><br>
+            <input type="text" id="name" name="name" required><br>
+
+            <lable for="email">Email:</lable><br>
+            <input type="email" id="email" name="email" required><br>
+
+            <lable for="message">Message</lable><br>
+            <textarea id="message" name="message" rows="4" cols="20" required></textarea><br><br>
+
+
+            <fieldset>
+              <legend>Gender:</legend>
+              <input type="radio" name="Gender" id="Female" required>
+              <label for="Female">Female</label><br>
+  
+              <input type="radio" name="Gender" id="Male" required>
+              <lable for="Male">Male</lable><br>
+  
+              <input type="radio" name="gender" id="other" required>
+              <lable for="other">other</lable>
+            </fieldset><br>
+
+
+            <fieldset>
+              <legend>Interests:</legend>
+            <input type="checkbox" id="Reading" name="interests" value="Reading" required>
+            <label for="Reading">Reading</label><br>
+
+            <input type="checkbox" id="Design" name="interests" value="Design" required>
+            <label for="Design">Design</label><br>
+
+            <input type="checkbox" id="coding" name="interests" value="coding" required>
+            <label for="coding">Coding</label>
+            </fieldset><br>
+
+            <input type="submit" valu="submit">
+            <p>Or contact me directly via email: <a href="mailto:hadia@hadia.com">hadia@hadia.com</a></p>
+        </form>
+    </section>
+
+    <!-- Gallery Section -->
+
+    <section id="gallery">
+        <h1>My Gallery</h1>
+        <figure>
+            <img src="https://imgs.search.brave.com/aPjqq0l5LJs14-6uIrjuZsdKR1l2qYcUdlAIIJPCKJE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by90/b3Atdmlldy13b21h/bi13aXRoLWxhcHRv/cC1icmVha2Zhc3Qt/dHJheV8yMy0yMTQ3/NjAxNDUyLmpwZz9z/ZW10PWFpc19oeWJy/aWQ" alt="Morning routine" width="200">
+            <figcaption>🌅A peaceful start to the day with breakfast and sunshine.</figcaption><br>
+          </figure>
+          <figure>
+            <img src="https://imgs.search.brave.com/3KyErLMzqkQnZi7t9NHYEiiZtoNxrRVA9sTejiMj858/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9vbmxp/bmUubWFyeXZpbGxl/LmVkdS93cC1jb250/ZW50L3VwbG9hZHMv/c2l0ZXMvOTcvMjAy/My8xMC9lcmdvbm9t/aWMtd29yay1zdGF0/aW9uLTUwMHgzNDQt/MS5qcGVn" alt="Study or Work Time" width="200">
+            <figcaption>💻A cozy study space that reflects focus and tech vibes.</figcaption><br>
+          </figure>
+          
+          <figure>
+            <img src="https://imgs.search.brave.com/p_SNOEwv7sLE7tXJEEnFMQ5HCe0CtTygiQfe70rgpjg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by9i/ZWF1dGlmdWwtc2hv/dC1uYXR1cmFsLXNj/ZW5lcnktYXV0dW1u/XzE4MTYyNC0yNTkz/NC5qcGc_c2VtdD1h/aXNfaHlicmlkJnc9/NzQw" alt=" Fresh Air" width="200">
+            <figcaption>🌿Stepping outside for a breath of fresh air and a clear mind.</figcaption><br>
+          </figure>
+
+          <figure>
+            <img src="https://imgs.search.brave.com/833ckSKrPH-Nuxwga3XadKJc2aP5WUtRfGKRBDuEbRA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/cGl4YWJheS5jb20v/cGhvdG8vMjAxNS8w/NS8zMS8xMi8xMi9j/b2ZmZWUtNzkxNDM5/XzY0MC5qcGc" alt="Coffee Moment" width="200">
+            <figcaption>☕Enjoying a peaceful coffee break to recharge during the day.</figcaption><br>
+          </figure>
+          <!-- ⭐ Rating Section Starts Here -->
+          <hr>
+
+          <p>Rate My Site: ★★★★☆</p>
+    </section>
+
+    <header>
+      <nav>
+        <a href="#home">Home</a> 
+      </nav>
+    </header>
+
+      <!-- Footer -->
+  <footer>
+    <p>&copy; 2025  Page</p>
+  </footer>
+
+  </body>
+</html>
